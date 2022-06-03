@@ -1,0 +1,24 @@
+# Message 1 Variable
+message_1 = "Howdy World!"
+print(message_1)
+
+# Message 2 Variable
+message_2 = "Hello World! This was used with 'message' variable!"
+print(message_2)
+
+#-------------------------
+#
+# Try It Yourself Section
+#
+#-------------------------
+
+# 2-1
+simple_message = "Try it Sample Message!"
+print(simple_message)
+
+# 2-2
+var_1 = "Variable 1"
+print(var_1)
+
+var_1 = "New Variable 1"
+print(var_1)

@@ -1,0 +1,38 @@
+# Double Quote String type
+s1 = "This is a double quote string!"
+print(s1)
+
+# You can use single quotes inside double quotes, and vice versa.
+
+# Single Quote String type
+s2 = 'This is a single quote string!'
+print(s2)
+
+# Using Strings with Methods and more!
+
+name = "kellen connolly"
+print(name.title()) # Sets the first letter of each string as a capital
+print(name.upper()) # Sets all characters in the string as Upper case
+print(name.lower()) # Sets all characters in the string as Lower case (good in using to store data)
+
+# Using Variables in Strings
+#-------------------------------
+first_name = "kellen"
+last_name = "connolly"
+full_name = f"{first_name} {last_name}" # Specifying the format, braces changes the name of the variable to its value when being interpreted
+print("Your Full name: " + full_name) # Concatenation of Variable
+print(f"Hello, {full_name.title()}!") # Using method with String format
+
+# Using Format to assign to a separate variable
+first_name = "Chris"
+last_name = "Bacon"
+full_name = f"{first_name} {last_name}"
+user_message = f"Hello, {full_name.title()}!"
+print(user_message)
+
+# Whitespace in Strings
+#------------------------------
+print("String Text") # Base String
+print("\tString Text") # Tabbed String Text
+print("Options:\nPizza\nWater\nPotato") # Newline String Text
+print("Languages:\n\tSpanish\n\tFrench\n\tGerman") # Newline and Tabbed String text
