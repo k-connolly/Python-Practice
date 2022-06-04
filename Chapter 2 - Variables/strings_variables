@@ -36,3 +36,54 @@ print("String Text") # Base String
 print("\tString Text") # Tabbed String Text
 print("Options:\nPizza\nWater\nPotato") # Newline String Text
 print("Languages:\n\tSpanish\n\tFrench\n\tGerman") # Newline and Tabbed String text
+
+# Stripping Whitespace from Strings
+#	strip() - Strips all whitespace within the string
+#	rstrip() - Strips the whitespace to the right of the string
+#	lstrip() - Strips the whitespace to the left of the string
+
+shop_name = 'lowkey ' # Single Quote String with space after
+print("Name: " + "'" + shop_name + "'") # Show Space Identifiers
+print("Stripped Name: " + "'" + shop_name.rstrip() + "'") # Have to use method within print statement but does not change the value of the variable
+shop_name = shop_name.rstrip() # Strip the whitespace and save the value to the original variable
+print("Altered Variable: " + "'" + shop_name + "'")
+
+# Showcasing the stripping methods
+var_1 = ' String '
+print("Right Strip: " + "'" + var_1.rstrip() + "'")
+print("Left Strip: " + "'" + var_1.lstrip() + "'")
+print("Full Strip: " + "'" + var_1.strip() + "'")
+
+#-------------------------
+#
+# Try It Yourself Section
+#
+#-------------------------
+
+# 2-3
+var_name = "Eric"
+print ("Hello " + var_name + ", would you like to learn some Python today?")
+
+# 2-4
+var_first = "mason"
+var_last = "holt"
+var_full = f"{var_first} {var_last}"
+print("Upper: " + var_full.upper())
+print("Lower: " + var_full.lower())
+print("Title: " + var_full.title())
+
+# 2-5
+print('Oscar Wilde once said, "Be yourself; everyone else is already taken."')
+
+# 2-6
+famous_person = "Oscar Wilde"
+message = "Be yourself; everyone else is already taken."
+spacer = '"'
+print(f'{famous_person} once said, {spacer}{message}{spacer}')
+
+# 2-7
+strip_name = "\t\nKellen\t\n"
+print("Raw String: " + strip_name) # Raw String Value
+print("Left Strip: " + "'" + strip_name.lstrip() + "'") # Strips whitespace to the left of the string
+print("Right Strip: " + "'" + strip_name.rstrip() + "'") # Strips whitespace to the right of the string
+print("All Strip: " + "'" + strip_name.strip() + "'") # Strips all whitespace within the string
