@@ -1,0 +1,35 @@
+menu = ['pizza', 'burger', 'chicken', 'soda']
+print(menu)
+# Accessing Items through its position in the list
+print(menu[0])
+print(menu[-1]) # Loops to the last item in the list, negative index start from the end to the beginning
+
+# Using items from lists
+selection = f"I select: {menu[0].title()}."
+print(selection)
+
+# Changing, Adding and Removing elements in a list PAGE 36
+
+#-------------------------
+#
+# Try It Yourself Section
+#
+#-------------------------
+
+# 3-1
+friends = ['kris', 'cade', 'tate']
+print(friends[0])
+print(friends[1])
+print(friends[2])
+
+# 3-2
+message = "Hello there, "
+print(message + friends[0].title() + ".")
+print(message + friends[1].title() + ".")
+print(message + friends[2].title() + ".")
+
+# 3-3
+motorcycles = ['honda', 'suzuki', 'kawasaki', 'aprilla', 'bmw', 'ducati']
+print(f"I want an {motorcycles[3].title()} RS660.")
+print(f"{motorcycles[2].title()} also has good bikes.")
+print(f"{motorcycles[1].title()} bikes are fairly expensive.")
